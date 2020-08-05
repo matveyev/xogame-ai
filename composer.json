@@ -1,0 +1,23 @@
+{
+    "name": "v.matveyev/xogame-ai",
+    "description": "Tic Tac Toe game example powered by AI",
+    "type": "project",
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "Vladimir Matveyev",
+            "email": "vladimir@matveyev.me"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": "7.2.*",
+        "symfony/console": "^5.1",
+        "ext-fann": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    }
+}
